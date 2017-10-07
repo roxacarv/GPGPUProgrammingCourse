@@ -1,0 +1,16 @@
+﻿  Compiling CUDA source file DevInfo.cu...
+  
+  C:\Users\xavie\Documents\Visual Studio 2017\Projects\DriverPropertiesViewer\DriverPropertiesViewer>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2017 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\DevInfo.cu.obj "C:\Users\xavie\Documents\Visual Studio 2017\Projects\DriverPropertiesViewer\DriverPropertiesViewer\DevInfo.cu" 
+C:/Users/xavie/Documents/Visual Studio 2017/Projects/DriverPropertiesViewer/DriverPropertiesViewer/DevInfo.cu(16): warning : variable "DeviceProp" was declared but never referenced
+C:/Users/xavie/Documents/Visual Studio 2017/Projects/DriverPropertiesViewer/DriverPropertiesViewer/DevInfo.cu(16): warning : variable "DeviceProp" was declared but never referenced
+  DevInfo.cu
+C:/Users/xavie/Documents/Visual Studio 2017/Projects/DriverPropertiesViewer/DriverPropertiesViewer/DevInfo.cu(22): warning C4473: 'printf' : não há argumentos suficientes transmitidos para a cadeia de caracteres de formato
+  C:/Users/xavie/Documents/Visual Studio 2017/Projects/DriverPropertiesViewer/DriverPropertiesViewer/DevInfo.cu(22): note: espaços reservados e seus parâmetros esperam 1 argumentos variadic, mas 0 foram fornecidos
+  C:/Users/xavie/Documents/Visual Studio 2017/Projects/DriverPropertiesViewer/DriverPropertiesViewer/DevInfo.cu(22): note: o argumento variadic 1 ausente é requerido pela cadeia de formato '%d'
+C:/Users/xavie/Documents/Visual Studio 2017/Projects/DriverPropertiesViewer/DriverPropertiesViewer/DevInfo.cu(16): warning C4101: 'DeviceProp': variável local não referenciada
+  DriverPropertiesViewer.vcxproj -> C:\Users\xavie\Documents\Visual Studio 2017\Projects\DriverPropertiesViewer\x64\Debug\DriverPropertiesViewer.exe
+  DriverPropertiesViewer.vcxproj -> C:\Users\xavie\Documents\Visual Studio 2017\Projects\DriverPropertiesViewer\x64\Debug\DriverPropertiesViewer.pdb (Partial PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\Users\xavie\Documents\Visual Studio 2017\Projects\DriverPropertiesViewer\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+          2 arquivo(s) copiado(s).
