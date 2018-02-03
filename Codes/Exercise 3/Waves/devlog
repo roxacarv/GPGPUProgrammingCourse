@@ -1,2 +1,0 @@
-To Fix:
---> Eclipse is deleting "Binaries" folder upon re-building with CUDA By Example libraries added.
